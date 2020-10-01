@@ -1,4 +1,8 @@
 package service;
 
-public class RoomService {
+import model.Room;
+
+public interface RoomService extends CrudService<Room> {
+    //методы для реализации бизнес-логики
+
 }

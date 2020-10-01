@@ -1,4 +1,6 @@
 package repo;
 
-public interface RoomRepo {
+import model.Room;
+
+public interface RoomRepo extends CrudRepo<Room, Integer> {
 }

@@ -1,4 +1,6 @@
 package repo;
 
-public class EquipmentRepo {
+import model.Equipment;
+
+public interface EquipmentRepo extends CrudRepo<Equipment, Integer> {
 }

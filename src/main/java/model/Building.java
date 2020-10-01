@@ -1,4 +1,8 @@
 package model;
 
-public class Building {
+import java.util.List;
+
+public class Building extends BaseEntity {
+    private String name;
+    private List<Room> rooms;
 }

@@ -1,4 +1,5 @@
 package model;
 
-public class BaseEntity {
+public abstract class BaseEntity {
+    private int id;
 }

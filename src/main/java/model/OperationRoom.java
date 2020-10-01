@@ -1,4 +1,5 @@
 package model;
 
-public class OperationRoom {
+public class OperationRoom extends Room {
+    private boolean isFree;
 }
